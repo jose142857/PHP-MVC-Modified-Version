@@ -1,2 +1,2 @@
 
-RewriteEngine on ErrorDocument 404   http://localhost/user-management/admin/modules/common/404.php
+RewriteEngine on ErrorDocument 404   https://vanthi-user-management.000webhostapp.com/admin/modules/common/404.php

@@ -1,4 +1,3 @@
-
 <?php
 $error = array();
 
@@ -42,7 +41,8 @@ if (is_submit('login'))
         else if ($user['password'] != md5($password)){
             $error['password'] = 'Mật khẩu bạn nhập không đúng';
         }
-
+        
+       
         // nếu mọi thứ ok thì tức là đăng nhập thành công 
         // nên thực hiện redirect sang trang chủ
         if (!$error){

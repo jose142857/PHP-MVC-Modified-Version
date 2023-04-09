@@ -1,15 +1,16 @@
 <?php
     if (!defined('IN_SITE')) die ('The request not found');
-
     // Hàm tạo URL
     function base_url($uri = ''){
-        return 'http://localhost/user-management/'.$uri;
+        return 'https://vanthi-user-management.000webhostapp.com/'.$uri;
     }
+    
+    
     
     // Hàm redirect
     function redirect($url){
-        header("Location:{$url}");
-        exit();
+        header('Location: '.$url);
+        exit;
     }
     
     // Hàm lấy value từ $_POST
@@ -93,3 +94,5 @@ function paging($link, $total_records, $current_page, $limit)
         'html' => $html
     );
 }
+
+?>

@@ -8,7 +8,7 @@
     function db_connect(){
         global $conn;
         if (!$conn){
-            $conn = mysqli_connect('localhost', 'root', '', 'user_management') or die ('Không thể kết nối CSDL'); 
+            $conn = mysqli_connect('localhost', 'id20580361_user_management123', 'VYk&{Cni_@F8FWUr', 'id20580361_user_management') or die ('Không thể kết nối CSDL'); 
                     
             mysqli_set_charset($conn, 'utf8');
         }

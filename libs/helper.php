@@ -3,7 +3,7 @@
 
     // Hàm tạo URL
     function base_url($uri = ''){
-        return 'https://localhost/user-management/'.$uri;
+        return 'http://localhost/user-management/'.$uri;
     }
     
     // Hàm redirect
